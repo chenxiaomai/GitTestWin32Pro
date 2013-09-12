@@ -16,6 +16,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	b = 16;
 	cout<<"a + b = "<<AddCalculater(a, b)<<endl;
 	cout<<"a * b = "<<MultiCalculater(a, b)<<endl;
+	cout<<"| a - b| = "<<SubAbsCalculater(a, b)<<endl;
 	while(1);
 	return 0;
 }
